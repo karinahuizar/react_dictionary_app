@@ -13,7 +13,24 @@ export default function App() {
           <Dictionary defaultKeyword="sunset" />
         </main>
         <footer className="App-footer">
-          <small>Coded by Karina Huizar</small>
+          <small>
+            Coded by{" "}
+            <a
+              href="https://www.linkedin.com/in/karinahuizar"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Karina Huizar
+            </a>{" "}
+            and is{" "}
+            <a
+              href="https://github.com/karinahuizar/dictionary-project"
+              target="_blank"
+              rel="noreferrer"
+            >
+              open-sourced on GitHub
+            </a>
+          </small>
         </footer>
       </div>
     </div>
